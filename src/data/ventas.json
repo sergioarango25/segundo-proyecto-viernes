@@ -1,0 +1,68 @@
+[
+  {
+    "cliente_id": 1,
+    "total": 130000,
+    "items": [
+      {
+        "producto_id": 1,
+        "nombre": "Guantes de entrenamiento",
+        "cantidad": 2,
+        "precio_unitario": 40000,
+        "subtotal": 80000
+      },
+      {
+        "producto_id": 2,
+        "nombre": "Camiseta",
+        "cantidad": 1,
+        "precio_unitario": 50000,
+        "subtotal": 50000
+      }
+    ],
+    "id": 1,
+    "fecha": "2025-11-11T19:07:16.295Z"
+  },
+  {
+    "cliente_id": 1,
+    "total": 130000,
+    "items": [
+      {
+        "producto_id": 1,
+        "nombre": "Guantes de entrenamiento",
+        "cantidad": 2,
+        "precio_unitario": 40000,
+        "subtotal": 80000
+      },
+      {
+        "producto_id": 2,
+        "nombre": "Camiseta",
+        "cantidad": 1,
+        "precio_unitario": 50000,
+        "subtotal": 50000
+      }
+    ],
+    "id": 2,
+    "fecha": "2025-11-11T19:17:31.275Z"
+  },
+  {
+    "cliente_id": 1,
+    "total": 130000,
+    "items": [
+      {
+        "producto_id": 1,
+        "nombre": "Guantes de entrenamiento",
+        "cantidad": 2,
+        "precio_unitario": 40000,
+        "subtotal": 80000
+      },
+      {
+        "producto_id": 2,
+        "nombre": "Camiseta",
+        "cantidad": 1,
+        "precio_unitario": 50000,
+        "subtotal": 50000
+      }
+    ],
+    "id": 3,
+    "fecha": "2025-11-11T19:19:08.844Z"
+  }
+]

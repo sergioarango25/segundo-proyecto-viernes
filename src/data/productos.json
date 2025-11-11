@@ -1,0 +1,18 @@
+[
+  {
+    "nombre": "Guantes de entrenamiento",
+    "descripcion": "Guantes deportivos",
+    "precio": 40000,
+    "stock": 23,
+    "id": 1,
+    "creado_at": "2025-11-11T18:02:45.746Z"
+  },
+  {
+    "id": 2,
+    "nombre": "Camiseta",
+    "descripcion": "Camiseta deportiva",
+    "precio": 50000,
+    "stock": 17,
+    "creado_at": "2025-11-01T00:00:00.000Z"
+  }
+]
