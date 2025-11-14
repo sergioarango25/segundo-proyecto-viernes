@@ -6,5 +6,19 @@
     "direccion": "Calle 9",
     "id": 1,
     "creado_at": "2025-11-11T17:52:45.031Z"
+  },
+  {
+    "nombre": "John Doe Updated",
+    "email": "john@example.com",
+    "phone": "3105554422",
+    "id": 2,
+    "creado_at": "2025-11-14T20:46:27.078Z"
+  },
+  {
+    "nombre": "John Doe",
+    "email": "john@example.com",
+    "phone": "3219128803",
+    "id": 3,
+    "creado_at": "2025-11-14T20:58:48.680Z"
   }
 ]

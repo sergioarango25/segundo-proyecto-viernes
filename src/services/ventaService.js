@@ -1,6 +1,8 @@
 const ventaRepo = require("../repositories/ventaRepository");
 const productoRepo = require("../repositories/productoRepository");
 const clienteRepo = require("../repositories/clienteRepository");
+const repo = require("../repositories/ventaRepository");
+
 
 exports.listar = () => ventaRepo.obtenerTodos();
 
@@ -47,4 +49,10 @@ exports.crear = (payload) => {
   };
 
   return ventaRepo.crear(nuevaVenta);
+};
+
+exports.obtenerPorId = (id) => {
+  const venta = repo.buscarPorId(id);
+  if (!venta) throw new Error("Venta no encontrada");
+  return venta;
 };

@@ -3,7 +3,7 @@
     "nombre": "Guantes de entrenamiento",
     "descripcion": "Guantes deportivos",
     "precio": 40000,
-    "stock": 23,
+    "stock": 20,
     "id": 1,
     "creado_at": "2025-11-11T18:02:45.746Z"
   },
@@ -12,7 +12,14 @@
     "nombre": "Camiseta",
     "descripcion": "Camiseta deportiva",
     "precio": 50000,
-    "stock": 17,
+    "stock": 21,
     "creado_at": "2025-11-01T00:00:00.000Z"
+  },
+  {
+    "nombre": "Mouse inalámbrico",
+    "precio": 70000,
+    "stock": 25,
+    "id": 3,
+    "creado_at": "2025-11-14T21:04:27.616Z"
   }
 ]

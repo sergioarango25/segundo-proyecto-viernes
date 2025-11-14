@@ -16,3 +16,14 @@ exports.crear = (req, res) => {
     res.status(400).json({ error: err.message });
   }
 };
+
+exports.obtenerPorId = (req, res) => {
+  try {
+    const venta = service.obtenerPorId(req.params.id);
+    res.json(venta);
+  } catch (err) {
+    res.status(404).json({ error: err.message });
+  }
+};
+
+

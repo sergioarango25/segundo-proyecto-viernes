@@ -22,7 +22,7 @@
     "fecha": "2025-11-11T19:07:16.295Z"
   },
   {
-    "cliente_id": 1,
+    "cliente_id": 2,
     "total": 130000,
     "items": [
       {
@@ -44,7 +44,7 @@
     "fecha": "2025-11-11T19:17:31.275Z"
   },
   {
-    "cliente_id": 1,
+    "cliente_id": 3,
     "total": 130000,
     "items": [
       {
@@ -64,5 +64,49 @@
     ],
     "id": 3,
     "fecha": "2025-11-11T19:19:08.844Z"
+  },
+  {
+    "cliente_id": 4,
+    "total": 225000,
+    "items": [
+      {
+        "producto_id": 2,
+        "nombre": "Camiseta",
+        "cantidad": 3,
+        "precio_unitario": 50000,
+        "subtotal": 150000
+      },
+      {
+        "producto_id": 3,
+        "nombre": "Mouse inalámbrico",
+        "cantidad": 1,
+        "precio_unitario": 75000,
+        "subtotal": 75000
+      }
+    ],
+    "id": 4,
+    "fecha": "2025-11-14T21:38:09.901Z"
+  },
+  {
+    "cliente_id": 5,
+    "total": 170000,
+    "items": [
+      {
+        "producto_id": 1,
+        "nombre": "Guantes de entrenamiento",
+        "cantidad": 3,
+        "precio_unitario": 40000,
+        "subtotal": 120000
+      },
+      {
+        "producto_id": 2,
+        "nombre": "Camiseta",
+        "cantidad": 1,
+        "precio_unitario": 50000,
+        "subtotal": 50000
+      }
+    ],
+    "id": 5,
+    "fecha": "2025-11-14T21:38:27.855Z"
   }
 ]

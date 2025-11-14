@@ -11,6 +11,11 @@ function escribir(data) {
   fs.writeFileSync(file, JSON.stringify(data, null, 2));
 }
 
+exports.buscarPorId = (id) => {
+  const ventas = leer();
+  return ventas.find(v => v.id == id);
+};
+
 exports.obtenerTodos = () => leer();
 exports.crear = (venta) => {
   const datos = leer();
